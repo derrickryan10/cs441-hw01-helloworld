@@ -12,16 +12,21 @@
 @end
 
 @implementation ViewController
-@synthesize theLabel;
+@synthesize helloLabel;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
 
-- (IBAction)buttonPressed:(id)sender {
-    NSLog(@"Welcome!");
-    [theLabel setText:@"Welcome!"];
+- (IBAction)buttonPressed1:(id)sender {
+    NSLog(@"Goodbye");
+    [helloLabel setText:@"GOODBYE WORLD!"];
+}
+
+- (IBAction) buttonPressed2:(id) sender {
+    NSLog(@"Hello");
+    [helloLabel setText:@"HELLO WORLD!"];
 }
 
 @end
