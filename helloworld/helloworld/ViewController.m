@@ -29,4 +29,9 @@
     [helloLabel setText:@"HELLO WORLD!"];
 }
 
+- (IBAction) buttonPressed3:(id) sender {
+    NSLog(@"Reset");
+    [helloLabel setText:@"Hello World!"];
+}
+
 @end

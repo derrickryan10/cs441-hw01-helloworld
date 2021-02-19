@@ -29,10 +29,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ncs-VM-sfo">
-                                <rect key="frame" x="180" y="642" width="55" height="41"/>
+                                <rect key="frame" x="181" y="642" width="54" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Enter"/>
+                                <state key="normal" title="Hello"/>
                                 <connections>
                                     <action selector="buttonPressed2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cK4-wC-Upl"/>
                                 </connections>
@@ -41,9 +41,18 @@
                                 <rect key="frame" x="149" y="681" width="117" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="Exit"/>
+                                <state key="normal" title="Goodbye"/>
                                 <connections>
                                     <action selector="buttonPressed1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kad-Tf-1UR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SzL-1N-pW1">
+                                <rect key="frame" x="178" y="754" width="59" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Reset"/>
+                                <connections>
+                                    <action selector="buttonPressed3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ct9-Zt-dDc"/>
                                 </connections>
                             </button>
                         </subviews>
